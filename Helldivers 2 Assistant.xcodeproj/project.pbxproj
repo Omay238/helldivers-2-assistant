@@ -7,10 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83492EB72BED30EB0067D290 /* libwebp in Frameworks */ = {isa = PBXBuildFile; productRef = 83492EB62BED30EB0067D290 /* libwebp */; };
+		83492EBA2BED31140067D290 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 83492EB92BED31140067D290 /* SDWebImage */; };
+		83492EBC2BED31140067D290 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 83492EBB2BED31140067D290 /* SDWebImageMapKit */; };
 		835FE7AE2BE16AC0007C97CD /* Helldivers_2_AssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835FE7AD2BE16AC0007C97CD /* Helldivers_2_AssistantApp.swift */; };
 		835FE7B02BE16AC0007C97CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835FE7AF2BE16AC0007C97CD /* ContentView.swift */; };
 		835FE7B22BE16AC1007C97CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835FE7B12BE16AC1007C97CD /* Assets.xcassets */; };
 		835FE7B52BE16AC1007C97CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835FE7B42BE16AC1007C97CD /* Preview Assets.xcassets */; };
+		8392F1CD2BE410CB00F5B7DA /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392F1CC2BE410CB00F5B7DA /* Data.swift */; };
+		8392F1D32BE949C700F5B7DA /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 8392F1D22BE949C700F5B7DA /* SDWebImageSwiftUI */; };
+		83B2ACEE2BEC3D6A00D9FBDB /* SDWebImageSVGCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 83B2ACED2BEC3D6A00D9FBDB /* SDWebImageSVGCoder */; };
+		83B2ACF42BEC410800D9FBDB /* SDWebImageWebPCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 83B2ACF32BEC410800D9FBDB /* SDWebImageWebPCoder */; };
+		83DF20B82BED8099003C9721 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DF20B72BED8099003C9721 /* Sound.swift */; };
+		83DF20BF2BED81F9003C9721 /* button_press_error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83DF20B92BED81F9003C9721 /* button_press_error.mp3 */; };
+		83DF20C02BED81F9003C9721 /* button_press.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83DF20BA2BED81F9003C9721 /* button_press.mp3 */; };
+		83DF20C12BED81F9003C9721 /* game_over.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83DF20BB2BED81F9003C9721 /* game_over.mp3 */; };
+		83DF20C22BED81F9003C9721 /* round_over.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83DF20BC2BED81F9003C9721 /* round_over.mp3 */; };
+		83DF20C32BED81F9003C9721 /* round_start_coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83DF20BD2BED81F9003C9721 /* round_start_coin.mp3 */; };
+		83DF20C42BED81F9003C9721 /* sequence_success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83DF20BE2BED81F9003C9721 /* sequence_success.mp3 */; };
+		83DF20C62BED846F003C9721 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DF20C52BED846F003C9721 /* Haptics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +34,15 @@
 		835FE7AF2BE16AC0007C97CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		835FE7B12BE16AC1007C97CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		835FE7B42BE16AC1007C97CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8392F1CC2BE410CB00F5B7DA /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		83DF20B72BED8099003C9721 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		83DF20B92BED81F9003C9721 /* button_press_error.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button_press_error.mp3; sourceTree = "<group>"; };
+		83DF20BA2BED81F9003C9721 /* button_press.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button_press.mp3; sourceTree = "<group>"; };
+		83DF20BB2BED81F9003C9721 /* game_over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game_over.mp3; sourceTree = "<group>"; };
+		83DF20BC2BED81F9003C9721 /* round_over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = round_over.mp3; sourceTree = "<group>"; };
+		83DF20BD2BED81F9003C9721 /* round_start_coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = round_start_coin.mp3; sourceTree = "<group>"; };
+		83DF20BE2BED81F9003C9721 /* sequence_success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sequence_success.mp3; sourceTree = "<group>"; };
+		83DF20C52BED846F003C9721 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +50,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83492EB72BED30EB0067D290 /* libwebp in Frameworks */,
+				83B2ACEE2BEC3D6A00D9FBDB /* SDWebImageSVGCoder in Frameworks */,
+				8392F1D32BE949C700F5B7DA /* SDWebImageSwiftUI in Frameworks */,
+				83B2ACF42BEC410800D9FBDB /* SDWebImageWebPCoder in Frameworks */,
+				83492EBC2BED31140067D290 /* SDWebImageMapKit in Frameworks */,
+				83492EBA2BED31140067D290 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +81,17 @@
 		835FE7AC2BE16AC0007C97CD /* Helldivers 2 Assistant */ = {
 			isa = PBXGroup;
 			children = (
+				83DF20B92BED81F9003C9721 /* button_press_error.mp3 */,
+				83DF20BA2BED81F9003C9721 /* button_press.mp3 */,
+				83DF20BB2BED81F9003C9721 /* game_over.mp3 */,
+				83DF20BC2BED81F9003C9721 /* round_over.mp3 */,
+				83DF20BD2BED81F9003C9721 /* round_start_coin.mp3 */,
+				83DF20BE2BED81F9003C9721 /* sequence_success.mp3 */,
 				835FE7AD2BE16AC0007C97CD /* Helldivers_2_AssistantApp.swift */,
 				835FE7AF2BE16AC0007C97CD /* ContentView.swift */,
+				8392F1CC2BE410CB00F5B7DA /* Data.swift */,
+				83DF20B72BED8099003C9721 /* Sound.swift */,
+				83DF20C52BED846F003C9721 /* Haptics.swift */,
 				835FE7B12BE16AC1007C97CD /* Assets.xcassets */,
 				835FE7B32BE16AC1007C97CD /* Preview Content */,
 			);
@@ -83,6 +122,14 @@
 			dependencies = (
 			);
 			name = "Helldivers 2 Assistant";
+			packageProductDependencies = (
+				8392F1D22BE949C700F5B7DA /* SDWebImageSwiftUI */,
+				83B2ACED2BEC3D6A00D9FBDB /* SDWebImageSVGCoder */,
+				83B2ACF32BEC410800D9FBDB /* SDWebImageWebPCoder */,
+				83492EB62BED30EB0067D290 /* libwebp */,
+				83492EB92BED31140067D290 /* SDWebImage */,
+				83492EBB2BED31140067D290 /* SDWebImageMapKit */,
+			);
 			productName = "Helldivers 2 Assistant";
 			productReference = 835FE7AA2BE16AC0007C97CD /* Helldivers 2 Assistant.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +158,13 @@
 				Base,
 			);
 			mainGroup = 835FE7A12BE16AC0007C97CD;
+			packageReferences = (
+				8392F1D12BE949C700F5B7DA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				83B2ACEC2BEC3D6A00D9FBDB /* XCRemoteSwiftPackageReference "SDWebImageSVGCoder" */,
+				83B2ACF22BEC410800D9FBDB /* XCRemoteSwiftPackageReference "SDWebImageWebPCoder" */,
+				83492EB52BED30EB0067D290 /* XCRemoteSwiftPackageReference "libwebp-Xcode" */,
+				83492EB82BED31140067D290 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 835FE7AB2BE16AC0007C97CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +180,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				835FE7B52BE16AC1007C97CD /* Preview Assets.xcassets in Resources */,
+				83DF20C02BED81F9003C9721 /* button_press.mp3 in Resources */,
+				83DF20C12BED81F9003C9721 /* game_over.mp3 in Resources */,
+				83DF20BF2BED81F9003C9721 /* button_press_error.mp3 in Resources */,
 				835FE7B22BE16AC1007C97CD /* Assets.xcassets in Resources */,
+				83DF20C42BED81F9003C9721 /* sequence_success.mp3 in Resources */,
+				83DF20C22BED81F9003C9721 /* round_over.mp3 in Resources */,
+				83DF20C32BED81F9003C9721 /* round_start_coin.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +198,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				835FE7B02BE16AC0007C97CD /* ContentView.swift in Sources */,
+				8392F1CD2BE410CB00F5B7DA /* Data.swift in Sources */,
+				83DF20C62BED846F003C9721 /* Haptics.swift in Sources */,
 				835FE7AE2BE16AC0007C97CD /* Helldivers_2_AssistantApp.swift in Sources */,
+				83DF20B82BED8099003C9721 /* Sound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +407,82 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		83492EB52BED30EB0067D290 /* XCRemoteSwiftPackageReference "libwebp-Xcode" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/libwebp-Xcode.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.2;
+			};
+		};
+		83492EB82BED31140067D290 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.2;
+			};
+		};
+		8392F1D12BE949C700F5B7DA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.4;
+			};
+		};
+		83B2ACEC2BEC3D6A00D9FBDB /* XCRemoteSwiftPackageReference "SDWebImageSVGCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSVGCoder.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.0;
+			};
+		};
+		83B2ACF22BEC410800D9FBDB /* XCRemoteSwiftPackageReference "SDWebImageWebPCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageWebPCoder.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.14.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		83492EB62BED30EB0067D290 /* libwebp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83492EB52BED30EB0067D290 /* XCRemoteSwiftPackageReference "libwebp-Xcode" */;
+			productName = libwebp;
+		};
+		83492EB92BED31140067D290 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83492EB82BED31140067D290 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		83492EBB2BED31140067D290 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83492EB82BED31140067D290 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		8392F1D22BE949C700F5B7DA /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8392F1D12BE949C700F5B7DA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		83B2ACED2BEC3D6A00D9FBDB /* SDWebImageSVGCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83B2ACEC2BEC3D6A00D9FBDB /* XCRemoteSwiftPackageReference "SDWebImageSVGCoder" */;
+			productName = SDWebImageSVGCoder;
+		};
+		83B2ACF32BEC410800D9FBDB /* SDWebImageWebPCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83B2ACF22BEC410800D9FBDB /* XCRemoteSwiftPackageReference "SDWebImageWebPCoder" */;
+			productName = SDWebImageWebPCoder;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 835FE7A22BE16AC0007C97CD /* Project object */;
 }
