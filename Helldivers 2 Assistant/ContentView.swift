@@ -13,7 +13,7 @@ import SDWebImage
 import AVFoundation
 
 struct ContentView: View {
-    let timeLimit: Double = 30
+    let timeLimit: Double = 10
     @State var data: Welcome?
     @State var sequence: [Datum] = []
     @State var input: [Key] = []
@@ -21,7 +21,7 @@ struct ContentView: View {
     @State var score: Int = 0
     @State var perfect: Bool = true
     @State var currentPerfect: Bool = true
-    @State var timeRemaining: Double = 20
+    @State var timeRemaining: Double = 10
     @State var state: String = "menu"
     @State var timer: Timer?
     @State var shownNewRound: Int = 0
